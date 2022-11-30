@@ -1,3 +1,3 @@
 # mercado-digital
->>Trello:
-https://trello.com/b/TQSVF3d2/projeto-engenharia-de-software
+Como objetivo principal, o mercadinho delivery quer entregar o melhor serviço a todos.
+Simples, mas completo.
