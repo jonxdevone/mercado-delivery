@@ -1,0 +1,102 @@
+body{
+    height: 100vh;
+    width: 100vh;
+    margin: 0px;
+    background: linear-gradient(72deg, rgb(208, 255, 0), rgb(255, 255, 255));
+}
+
+.title{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    background: rgb(170, 3, 3);
+    color: white;
+}
+
+h1{
+    padding-left: 20px;
+}
+
+img#logo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+.opcoes{
+    position: absolute;
+    top: 25px;
+    left: 80%;
+    color: white;
+    font-size: 23px;
+}
+
+.itens{
+    position: absolute;
+    top: 85px;
+    left: 25%;
+    color: white;
+    font-size: 20px;
+}
+
+a#colunas{
+    padding-right: 40px;
+    text-decoration:none;
+    color: white;
+}
+
+a#colunas:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    transition: .8s;
+}
+
+a#sacola{
+    padding-right: 20px;
+    text-decoration:none;
+    color: white;
+}
+a#sacola:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    transition: .8s;
+}
+
+.navegation{
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    height: 45px;
+    padding: 0px;
+}
+
+.search-text input{
+    width: 50px;
+}
+
+.search-box{
+    position: absolute;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 40px;
+    background: rgb(255, 255, 255);
+    height: 20px;
+    width: 210px;
+    top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 20px;
+}

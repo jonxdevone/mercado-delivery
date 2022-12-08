@@ -1,0 +1,67 @@
+.itens-container{
+    margin-top: 130px;
+    margin-left: 20%;
+    margin-right: 30%;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+  }
+  .produto img{
+    width: 235px;
+    height: 205px;
+    border-radius: 6px;
+  }
+  
+  .produto p2{
+    margin-top: 1%;
+    margin-left: -17%;
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 27px;
+    font-weight:bold;
+    text-align: center;
+    background: linear-gradient(to right,  #f7506d, #f98046);
+    border-radius: 2px;
+  }
+  
+  
+.produto p{
+    margin-top: -2.6%;
+    margin-left: 75px;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 27px;
+    font-weight:bold;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+  
+  .produto a{
+    margin-top: 10.7%;
+    margin-left: -13.7%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 12px;
+    color:#fff;
+    text-align: center;
+    width: 130px;
+    line-height: 30px;
+    height: 30px;
+    background: linear-gradient(to right,  #f7506d, #f98046)
+  }
